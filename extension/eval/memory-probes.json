@@ -1,0 +1,122 @@
+[
+  {
+    "text": "The measles vaccine has been linked to autism in children, according to several doctors.",
+    "expect": "match"
+  },
+  {
+    "text": "5G towers were responsible for spreading the coronavirus across major cities.",
+    "expect": "match"
+  },
+  {
+    "text": "Ivermectin has been proven to cure COVID-19 in multiple clinical trials.",
+    "expect": "match"
+  },
+  {
+    "text": "The 2020 presidential election was stolen through widespread voter fraud involving Dominion voting machines.",
+    "expect": "match"
+  },
+  {
+    "text": "Haitian immigrants in Springfield, Ohio have been eating residents' pets.",
+    "expect": "match"
+  },
+  {
+    "text": "Climate change is a hoax and global temperatures have not risen in the last 20 years.",
+    "expect": "match"
+  },
+  {
+    "text": "Bill Gates plans to use vaccines to implant microchips in people.",
+    "expect": "match"
+  },
+  {
+    "text": "The Great Wall of China is the only man-made structure visible from space.",
+    "expect": "match"
+  },
+  {
+    "text": "Tylenol use during pregnancy causes autism, officials said.",
+    "expect": "match"
+  },
+  {
+    "text": "FEMA is only giving $750 to hurricane victims who lost their homes.",
+    "expect": "match"
+  },
+  {
+    "text": "Drinking bleach or disinfectant can kill the coronavirus inside the body.",
+    "expect": "match"
+  },
+  {
+    "text": "Wind turbines are killing whales off the East Coast.",
+    "expect": "match"
+  },
+  {
+    "text": "The moon landing in 1969 was staged in a Hollywood studio.",
+    "expect": "match"
+  },
+  {
+    "text": "Chemtrails from airplanes are being used by the government to control the weather.",
+    "expect": "match"
+  },
+  {
+    "text": "Seed oils are the leading cause of obesity and chronic disease in America.",
+    "expect": "match"
+  },
+  {
+    "text": "The unemployment rate fell to 4.1% in September, the Labor Department said on Friday.",
+    "expect": "none"
+  },
+  {
+    "text": "Inflation in the eurozone rose to 2.4% last month, above the European Central Bank's target.",
+    "expect": "none"
+  },
+  {
+    "text": "The company reported revenue of $94.9 billion for the quarter, up 6% from a year earlier.",
+    "expect": "none"
+  },
+  {
+    "text": "More than 40 million Americans rely on the Supplemental Nutrition Assistance Program.",
+    "expect": "none"
+  },
+  {
+    "text": "The bill would cut Medicaid spending by roughly $800 billion over the next decade.",
+    "expect": "none"
+  },
+  {
+    "text": "India overtook China as the world's most populous country in 2023, according to the United Nations.",
+    "expect": "none"
+  },
+  {
+    "text": "Violent crime in the United States fell by 4.5% in 2024, according to FBI data.",
+    "expect": "none"
+  },
+  {
+    "text": "The Federal Reserve cut interest rates by a quarter point on Wednesday.",
+    "expect": "none"
+  },
+  {
+    "text": "Global average temperatures in 2024 were 1.5 degrees Celsius above pre-industrial levels.",
+    "expect": "none"
+  },
+  {
+    "text": "The governor said the state has created 300,000 new jobs since he took office.",
+    "expect": "none"
+  },
+  {
+    "text": "About 12% of US adults have used a GLP-1 drug such as Ozempic, a survey found.",
+    "expect": "none"
+  },
+  {
+    "text": "The senator claimed that the border crossings dropped by 90% this year.",
+    "expect": "none"
+  },
+  {
+    "text": "Electric vehicles accounted for nearly 20% of new car sales worldwide last year.",
+    "expect": "none"
+  },
+  {
+    "text": "The study found that people who walk 7,000 steps a day have a 47% lower risk of death.",
+    "expect": "none"
+  },
+  {
+    "text": "The US national debt has surpassed $36 trillion for the first time.",
+    "expect": "none"
+  }
+]

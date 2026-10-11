@@ -1,0 +1,468 @@
+[
+  {
+    "id": 1,
+    "category": "easy_false",
+    "label": "false",
+    "text": "Humans use only 10% of their brains, neuroscientists say.",
+    "judge": true
+  },
+  {
+    "id": 2,
+    "category": "easy_false",
+    "label": "false",
+    "text": "The Great Wall of China is the only man-made structure visible from space."
+  },
+  {
+    "id": 3,
+    "category": "easy_false",
+    "label": "false",
+    "text": "The 2022 FIFA World Cup was won by France, who beat Argentina in the final.",
+    "judge": true
+  },
+  {
+    "id": 4,
+    "category": "easy_false",
+    "label": "false",
+    "text": "Antibiotics are effective at treating viral infections such as the flu."
+  },
+  {
+    "id": 5,
+    "category": "easy_false",
+    "label": "false",
+    "text": "The measles vaccine has been linked to autism in children, according to several doctors.",
+    "judge": true
+  },
+  {
+    "id": 6,
+    "category": "easy_false",
+    "label": "false",
+    "text": "Global sea levels have fallen by 20 centimetres since 1900, according to NASA."
+  },
+  {
+    "id": 7,
+    "category": "easy_false",
+    "label": "false",
+    "text": "Sweden adopted the euro as its currency in 2015."
+  },
+  {
+    "id": 8,
+    "category": "easy_false",
+    "label": "false",
+    "text": "Lightning never strikes the same place twice, according to meteorologists."
+  },
+  {
+    "id": 9,
+    "category": "easy_true",
+    "label": "true",
+    "text": "Argentina won the 2022 FIFA World Cup after beating France on penalties.",
+    "judge": true
+  },
+  {
+    "id": 10,
+    "category": "easy_true",
+    "label": "true",
+    "text": "The World Health Organization declared COVID-19 a pandemic on 11 March 2020."
+  },
+  {
+    "id": 11,
+    "category": "easy_true",
+    "label": "true",
+    "text": "Russia launched a full-scale invasion of Ukraine in February 2022."
+  },
+  {
+    "id": 12,
+    "category": "easy_true",
+    "label": "true",
+    "text": "The UK left the European Union on 31 January 2020.",
+    "judge": true
+  },
+  {
+    "id": 13,
+    "category": "easy_true",
+    "label": "true",
+    "text": "The James Webb Space Telescope was launched in December 2021."
+  },
+  {
+    "id": 14,
+    "category": "easy_true",
+    "label": "true",
+    "text": "The Titanic sank in April 1912 after striking an iceberg."
+  },
+  {
+    "id": 15,
+    "category": "easy_true",
+    "label": "true",
+    "text": "Venus is the hottest planet in the solar system, with surface temperatures around 465 degrees Celsius.",
+    "judge": true
+  },
+  {
+    "id": 16,
+    "category": "easy_true",
+    "label": "true",
+    "text": "Germany shut down its last three nuclear power plants in April 2023."
+  },
+  {
+    "id": 17,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "The Apollo 11 mission landed the first humans on the Moon in July 1968."
+  },
+  {
+    "id": 18,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "The Berlin Wall fell in November 1991.",
+    "judge": true
+  },
+  {
+    "id": 19,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "Canada has a population of about 75 million people."
+  },
+  {
+    "id": 20,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "The Paris Agreement aims to limit global warming to well below 3 degrees Celsius above pre-industrial levels.",
+    "judge": true
+  },
+  {
+    "id": 21,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "The human genome contains roughly 200,000 protein-coding genes."
+  },
+  {
+    "id": 22,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "Light from the Sun takes about 80 minutes to reach Earth."
+  },
+  {
+    "id": 23,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "Japan's population grew by more than 5 million between 2010 and 2020.",
+    "judge": true
+  },
+  {
+    "id": 24,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "The 2016 Brexit referendum was decided by 62% voting to leave.",
+    "judge": true
+  },
+  {
+    "id": 25,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "Tesla delivered about 4.5 million vehicles worldwide in 2023.",
+    "judge": true
+  },
+  {
+    "id": 26,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "The Chernobyl nuclear disaster occurred in April 1979."
+  },
+  {
+    "id": 27,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "The US Supreme Court overturned Roe v. Wade in June 2021."
+  },
+  {
+    "id": 28,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "Australia's capital, Sydney, is home to the federal parliament."
+  },
+  {
+    "id": 29,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "Insulin was discovered in 1951 by Frederick Banting and Charles Best."
+  },
+  {
+    "id": 30,
+    "category": "subtle_false",
+    "label": "false",
+    "text": "The World Bank estimates that about 40% of the world's population lived in extreme poverty in 2019."
+  },
+  {
+    "id": 31,
+    "category": "subtle_true",
+    "label": "true",
+    "text": "The Berlin Wall fell in November 1989."
+  },
+  {
+    "id": 32,
+    "category": "subtle_true",
+    "label": "true",
+    "text": "Canada's population passed 40 million in 2023.",
+    "judge": true
+  },
+  {
+    "id": 33,
+    "category": "subtle_true",
+    "label": "true",
+    "text": "The human genome contains roughly 20,000 protein-coding genes."
+  },
+  {
+    "id": 34,
+    "category": "subtle_true",
+    "label": "true",
+    "text": "Light from the Sun takes about eight minutes to reach Earth."
+  },
+  {
+    "id": 35,
+    "category": "subtle_true",
+    "label": "true",
+    "text": "The 2016 Brexit referendum was decided by 51.9% voting to leave.",
+    "judge": true
+  },
+  {
+    "id": 36,
+    "category": "subtle_true",
+    "label": "true",
+    "text": "Tesla delivered about 1.8 million vehicles worldwide in 2023.",
+    "judge": true
+  },
+  {
+    "id": 37,
+    "category": "subtle_true",
+    "label": "true",
+    "text": "The Chernobyl nuclear disaster occurred in April 1986."
+  },
+  {
+    "id": 38,
+    "category": "subtle_true",
+    "label": "true",
+    "text": "The US Supreme Court overturned Roe v. Wade in June 2022."
+  },
+  {
+    "id": 39,
+    "category": "subtle_true",
+    "label": "true",
+    "text": "Insulin was discovered in 1921 by Frederick Banting and Charles Best."
+  },
+  {
+    "id": 40,
+    "category": "subtle_true",
+    "label": "true",
+    "text": "Japan's population peaked around 2008 and has declined since."
+  },
+  {
+    "id": 41,
+    "category": "surprising_true",
+    "label": "true",
+    "text": "Teaching at Oxford University began before the Aztec Empire was founded.",
+    "judge": true
+  },
+  {
+    "id": 42,
+    "category": "surprising_true",
+    "label": "true",
+    "text": "Bananas are botanically berries, while strawberries are not."
+  },
+  {
+    "id": 43,
+    "category": "surprising_true",
+    "label": "true",
+    "text": "A day on Venus is longer than its year."
+  },
+  {
+    "id": 44,
+    "category": "surprising_true",
+    "label": "true",
+    "text": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid of Giza."
+  },
+  {
+    "id": 45,
+    "category": "unknowable",
+    "label": "unknowable",
+    "text": "The company reported revenue of $94.9 billion for the quarter, up 6% from a year earlier."
+  },
+  {
+    "id": 46,
+    "category": "unknowable",
+    "label": "unknowable",
+    "text": "The governor said the state has created 300,000 new jobs since he took office."
+  },
+  {
+    "id": 47,
+    "category": "unknowable",
+    "label": "unknowable",
+    "text": "The city council approved a $2.3 million budget for road repairs on Tuesday."
+  },
+  {
+    "id": 48,
+    "category": "unknowable",
+    "label": "unknowable",
+    "text": "The senator claimed that border crossings dropped by 90% this year."
+  },
+  {
+    "id": 49,
+    "category": "unknowable",
+    "label": "unknowable",
+    "text": "About 12% of US adults have used a GLP-1 drug such as Ozempic, a survey found."
+  },
+  {
+    "id": 50,
+    "category": "unknowable",
+    "label": "unknowable",
+    "text": "The study found that people who walk 7,000 steps a day have a 47% lower risk of death."
+  },
+  {
+    "id": 51,
+    "category": "recent_false",
+    "label": "false",
+    "text": "In October 2026, the John F. Kennedy Center for the Performing Arts moved its Steinway pianos from the premises in order to sell them.",
+    "source": "Snopes: False, 2026-10-07",
+    "judge": true
+  },
+  {
+    "id": 52,
+    "category": "recent_false",
+    "label": "false",
+    "text": "CNN journalist Anderson Cooper built a free hospital for homeless people in September 2026.",
+    "source": "Snopes: False, 2026-10-02",
+    "judge": true
+  },
+  {
+    "id": 53,
+    "category": "recent_false",
+    "label": "false",
+    "text": "In September 2026, Japan officially banned Israeli tourists from entering the country.",
+    "source": "Snopes: False, 2026-09-29",
+    "judge": true
+  },
+  {
+    "id": 54,
+    "category": "recent_false",
+    "label": "false",
+    "text": "Sri Lanka has been removed from the United Nations.",
+    "source": "AFP Fact Check: False, 2026-10-09",
+    "judge": true
+  },
+  {
+    "id": 55,
+    "category": "recent_false",
+    "label": "false",
+    "text": "The Philippines will fine users 50 million pesos for improper social media use.",
+    "source": "AFP Fact Check: False, 2026-10-09"
+  },
+  {
+    "id": 56,
+    "category": "recent_false",
+    "label": "false",
+    "text": "The Finance Ministry issued a gazette notification declaring every Saturday a holiday for all public sector banks with immediate effect.",
+    "source": "Factly: False, 2026-10-01",
+    "judge": true
+  },
+  {
+    "id": 57,
+    "category": "recent_false",
+    "label": "false",
+    "text": "The Union Ministry of Finance issued a notification to merge nine public sector banks into three.",
+    "source": "Factly: False, 2026-09-17"
+  },
+  {
+    "id": 58,
+    "category": "recent_false",
+    "label": "false",
+    "text": "Farmers will receive a special ₹4,000 instalment under the PM-KISAN scheme on the occasion of Raksha Bandhan in August 2026.",
+    "source": "Factly: False, 2026-08-26"
+  },
+  {
+    "id": 59,
+    "category": "recent_false",
+    "label": "false",
+    "text": "Free bus travel for children in England in August 2026 was used by over 14.5 million children.",
+    "source": "Full Fact: Incorrect, 2026-10-02",
+    "judge": true
+  },
+  {
+    "id": 60,
+    "category": "recent_false",
+    "label": "false",
+    "text": "Not a single small boat crossed the Channel before the Brexit referendum in June 2016.",
+    "source": "Full Fact: False, 2026-09-25"
+  },
+  {
+    "id": 61,
+    "category": "recent_false",
+    "label": "false",
+    "text": "The U.S. has the highest death rate from COVID of any nation on Earth.",
+    "source": "FactCheck.org: False, 2026-08-04"
+  },
+  {
+    "id": 62,
+    "category": "recent_false",
+    "label": "false",
+    "text": "Japan has introduced new laws banning halal food, mosques, burqas and the Islamic call to prayer.",
+    "source": "Full Fact: False, 2026-09-28"
+  },
+  {
+    "id": 63,
+    "category": "recent_false",
+    "label": "false",
+    "text": "Monzo has launched a new casino app called Monzo Slots.",
+    "source": "Full Fact: Not true, 2026-09-18",
+    "judge": true
+  },
+  {
+    "id": 64,
+    "category": "recent_true",
+    "label": "true",
+    "text": "A class action settlement related to deceptive Amazon Prime practices began paying out to eligible customers in fall 2026.",
+    "source": "Snopes: Legit, 2026-10-07",
+    "judge": true
+  },
+  {
+    "id": 65,
+    "category": "recent_true",
+    "label": "true",
+    "text": "Retail stores in the U.S. are selling 3D-printed meat, as of September 2026.",
+    "source": "Snopes: True, 2026-10-07",
+    "judge": true
+  },
+  {
+    "id": 66,
+    "category": "recent_true",
+    "label": "true",
+    "text": "People for the Ethical Treatment of Animals euthanized approximately 67% of the animals that it took in during 2024.",
+    "source": "Snopes: True, 2026-10-06",
+    "judge": true
+  },
+  {
+    "id": 67,
+    "category": "recent_true",
+    "label": "true",
+    "text": "The term \"sexual harassment\" was coined in the 1970s by female employees of Cornell University.",
+    "source": "Snopes: True, 2026-10-06"
+  },
+  {
+    "id": 68,
+    "category": "recent_true",
+    "label": "true",
+    "text": "There are road signs in Japan warning drivers that cats may jump out into traffic.",
+    "source": "Snopes: True, 2026-10-04"
+  },
+  {
+    "id": 69,
+    "category": "recent_true",
+    "label": "true",
+    "text": "The White House misspelled United States as \"Unites States\" in President Donald Trump's accord on \"super intelligence\".",
+    "source": "Snopes: True, 2026-09-30",
+    "judge": true
+  },
+  {
+    "id": 70,
+    "category": "recent_true",
+    "label": "true",
+    "text": "The Trump administration is cutting access to student loans for degrees that have low earning potential, including social work.",
+    "source": "Snopes: True, 2026-09-30"
+  }
+]

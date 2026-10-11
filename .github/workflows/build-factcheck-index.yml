@@ -1,0 +1,44 @@
+name: Build fact-check index
+
+# Rebuilds the fact-check memory and publishes it as release assets, which the
+# extension downloads from its options page. Run it from the Actions tab.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download the embedding model
+        run: node extension/scripts/fetch-models.mjs
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build the index
+        env:
+          # Optional. Without it the index is built from the public feed only.
+          GOOGLE_FACTCHECK_API_KEY: ${{ secrets.GOOGLE_FACTCHECK_API_KEY }}
+        run: python scripts/build_factcheck_index.py --out factcheck-index
+
+      - name: Publish release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view factcheck-index >/dev/null 2>&1 || \
+            gh release create factcheck-index --title "Fact-check index" \
+              --notes "Semantic index of published fact-checks, downloaded by the extension. Rebuilt on demand by the build-factcheck-index workflow. Claim data: CC BY, Data Commons ClaimReview feed and Google Fact Check Tools API."
+          gh release upload factcheck-index factcheck-index/manifest.json factcheck-index/claims.json factcheck-index/vectors.bin --clobber

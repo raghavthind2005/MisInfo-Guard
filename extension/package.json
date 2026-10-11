@@ -1,0 +1,49 @@
+{
+    "name": "misinfo-guard-extension",
+    "version": "0.1.0",
+    "description": "Chrome extension that detects and highlights misinformation",
+    "type": "module",
+    "scripts": {
+        "copy:wasm": "node scripts/copy-wasm.mjs",
+        "fetch:models": "node scripts/fetch-models.mjs",
+        "predev": "npm run copy:wasm && npm run fetch:models",
+        "dev": "vite",
+        "prebuild": "npm run copy:wasm && npm run fetch:models",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "test": "vitest",
+        "test:ui": "vitest --ui",
+        "test:coverage": "vitest --coverage",
+        "test:e2e": "playwright test",
+        "eval": "tsx eval/run.ts",
+        "eval:memory": "tsx eval/memory.ts",
+        "lint": "eslint src --ext .ts,.tsx",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@xenova/transformers": "^2.17.0",
+        "compromise": "^14.14.5",
+        "preact": "^10.19.0"
+    },
+    "devDependencies": {
+        "@crxjs/vite-plugin": "^2.0.0-beta.23",
+        "@playwright/test": "^1.40.0",
+        "@preact/preset-vite": "^2.8.0",
+        "@types/chrome": "^0.0.260",
+        "@types/node": "^20.10.0",
+        "@typescript-eslint/eslint-plugin": "^6.13.0",
+        "@typescript-eslint/parser": "^6.13.0",
+        "@vitest/coverage-v8": "^1.0.0",
+        "@vitest/ui": "^1.0.0",
+        "eslint": "^8.55.0",
+        "eslint-plugin-preact": "^0.1.0",
+        "happy-dom": "^12.10.0",
+        "tsx": "^4.23.15",
+        "typescript": "^5.3.0",
+        "vite": "^5.0.0",
+        "vitest": "^1.0.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}

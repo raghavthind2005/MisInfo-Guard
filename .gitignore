@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.output/
+
+# Environment files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Extension build
+extension/dist/
+extension/public/wasm/
+extension/public/models/all-MiniLM-L6-v2/
+factcheck-index/
+extension/eval/.cache/
+*.crx
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

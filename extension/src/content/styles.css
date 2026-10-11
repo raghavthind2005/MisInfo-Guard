@@ -1,0 +1,148 @@
+/* MisInfo Guard Content Highlighting */
+
+/* Base highlight: a detected claim that has not been checked. Kept faint on purpose,
+   so that only sentences with a finding stand out on the page. */
+.misinfo-highlight {
+    border-bottom: 1px dotted rgba(120, 120, 120, 0.55);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    position: relative;
+}
+
+.misinfo-highlight:hover {
+    background-color: rgba(255, 235, 59, 0.3);
+}
+
+/* Color coding for verified claims */
+.border-false {
+    border-bottom: 2px solid #f44336 !important;
+}
+
+.border-true {
+    border-bottom: 2px solid #4caf50 !important;
+}
+
+.border-mixed {
+    border-bottom-color: #ff9800 !important;
+    border-bottom-style: solid !important;
+}
+
+/* Wrapped so it can be flagged later, but shown as ordinary text for now */
+.misinfo-highlight.misinfo-hidden {
+    background: none;
+    border-bottom: none;
+    cursor: inherit;
+}
+
+/* Flagged: sources contradict it, or fact-checkers have disputed it */
+.misinfo-highlight.border-false {
+    background-color: rgba(244, 67, 54, 0.14);
+}
+
+/* A similar claim has a human fact-check in the local index */
+.misinfo-memory {
+    background-color: rgba(255, 152, 0, 0.18);
+    border-bottom: 2px solid #ff9800;
+}
+
+.misinfo-memory:hover {
+    background-color: rgba(255, 152, 0, 0.32);
+}
+
+/* Tooltip Styling */
+.misinfo-tooltip {
+    position: absolute;
+    z-index: 2147483647;
+    /* Top of everything */
+    background: #ffffff;
+    color: #333;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 320px;
+    pointer-events: auto;
+    border: 1px solid #ddd;
+}
+
+.msg-header {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.msg-text {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #555;
+    border-left: 3px solid #eee;
+    padding-left: 8px;
+}
+
+.msg-explanation {
+    background: #f8f9fa;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    color: #444;
+    border: 1px solid #edf0f2;
+}
+
+.msg-figures {
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #b71c1c;
+}
+
+.msg-source {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.msg-link {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-align: left;
+    color: #2196f3;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.msg-link:hover {
+    text-decoration: underline;
+}
+
+.msg-tier {
+    font-size: 10px;
+    color: #999;
+    text-align: right;
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+}
+
+/* Verdict Colors for Header */
+.color-false {
+    color: #d32f2f;
+}
+
+.color-true {
+    color: #388e3c;
+}
+
+.color-mixed {
+    color: #f57c00;
+}
+
+.color-neutral {
+    color: #757575;
+}
